@@ -1,3 +1,8 @@
+#使用
+juicefs format --storage minio --bucket http://127.0.0.1:9000/datanode/ --access-key=minioadmin --secret-key=minioadmin redis://152.136.102.229:6379/1 datanode
+
+juicefs.exe mount redis://152.136.102.229:6379/1 Z:
+
 <p align="center"><a href="https://github.com/juicedata/juicefs"><img alt="JuiceFS Logo" src="docs/images/juicefs-logo.png" width="50%" /></a></p>
 <p align="center">
     <a href="https://travis-ci.com/juicedata/juicefs"><img alt="Build Status" src="https://travis-ci.com/juicedata/juicefs.svg?token=jKSPwswpc2ph4uMtwpHa&branch=main" /></a>
